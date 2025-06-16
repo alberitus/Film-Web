@@ -1,19 +1,108 @@
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Card, Container, Row, Col, Image } from 'react-bootstrap';
+import shangchiImage from '../assets/images/films/shangchi.jpg';
+import spidermanImage from '../assets/images/background/spiderman.jpg';
+import endgameImage from '../assets/images/films/endgame.jpg';
 
 const Trending = () => {
     return (
-        <div className='intro'>
-            <Container className='text-white text-center d-flex justify-content-center align-items-center'>
-            <Row>
-                <Col>
-                <div className='title'>FIND YOUR MOVIE</div>
-                <div className='title'>AND ENJOY YOUR POPCORN</div>
-                <div className='introButton mt-4 text-center'>
-                    <Button variant='dark'>Watch here</Button>
-                </div>
-                </Col>
-            </Row>
+        <div>
+            <Container>
+                <br/>
+                <h1 className="text-white">TRENDING MOIVE</h1>
+                <Row>
+                    <Col md={4} className="movieWrapper">
+                        <Card className="movieImage">
+                            <Image src={shangchiImage} alt="Shacngchi Movies" className="images" />
+                            <div className='bg-dark'>
+                                <div className="p-2 m-1 text-white">
+                                    <Card.Title className="text-center">Shang-Chi</Card.Title>
+                                    <Card.Text className="text-left">
+                                    This is a wider card with supporting text below as a natural lead-in
+                                    to additional content.
+                                    </Card.Text>
+                                    <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col md={4} className="movieWrapper">
+                        <Card className="movieImage">
+                            <Image src={spidermanImage} alt="Shacngchi Movies" className="images" />
+                            <div className='bg-dark'>
+                                <div className="p-2 m-1 text-white">
+                                    <Card.Title className="text-center">Shang-Chi</Card.Title>
+                                    <Card.Text className="text-left">
+                                    This is a wider card with supporting text below as a natural lead-in
+                                    to additional content.
+                                    </Card.Text>
+                                    <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col md={4} className="movieWrapper">
+                        <Card className="movieImage">
+                            <Image src={endgameImage} alt="Shacngchi Movies" className="images" />
+                            <div className='bg-dark'>
+                                <div className="p-2 m-1 text-white">
+                                    <Card.Title className="text-center">Shang-Chi</Card.Title>
+                                    <Card.Text className="text-left">
+                                    This is a wider card with supporting text below as a natural lead-in
+                                    to additional content.
+                                    </Card.Text>
+                                    <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col md={4} className="movieWrapper">
+                        <Card className="movieImage">
+                            <Image src={shangchiImage} alt="Shacngchi Movies" className="images" />
+                            <div className='bg-dark'>
+                                <div className="p-2 m-1 text-white">
+                                    <Card.Title className="text-center">Shang-Chi</Card.Title>
+                                    <Card.Text className="text-left">
+                                    This is a wider card with supporting text below as a natural lead-in
+                                    to additional content.
+                                    </Card.Text>
+                                    <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col md={4} className="movieWrapper">
+                        <Card className="movieImage">
+                            <Image src={spidermanImage} alt="Shacngchi Movies" className="images" />
+                            <div className='bg-dark'>
+                                <div className="p-2 m-1 text-white">
+                                    <Card.Title className="text-center">Shang-Chi</Card.Title>
+                                    <Card.Text className="text-left">
+                                    This is a wider card with supporting text below as a natural lead-in
+                                    to additional content.
+                                    </Card.Text>
+                                    <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col md={4} className="movieWrapper">
+                        <Card className="movieImage">
+                            <Image src={endgameImage} alt="Shacngchi Movies" className="images" />
+                            <div className='bg-dark'>
+                                <div className="p-2 m-1 text-white">
+                                    <Card.Title className="text-center">Shang-Chi</Card.Title>
+                                    <Card.Text className="text-left">
+                                    This is a wider card with supporting text below as a natural lead-in
+                                    to additional content.
+                                    </Card.Text>
+                                    <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                </Row>
             </Container>
+            
         </div>
     )
 }
