@@ -1,7 +1,9 @@
 .movie-bg {
     height: 100vh;
     background: url('../assets/images/background/background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
+
 .intro {
     height: 300px;
     display: flex;
@@ -15,4 +17,24 @@
     line-height: 1;
     text-shadow: 2px 2px black;
     letter-spacing: 4px;
+}
+
+.trending {
+    height: auto;
+    background: url('../assets/images/films/marioBros.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.movieWrapper {
+}
+
+.movieImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images {
+    height: 500px;
 }
