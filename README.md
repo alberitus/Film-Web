@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+Inspired by Dea Afrizal
+This project is inspired by the work and teachings of Dea Afrizal, whose content and tutorials have contributed significantly to the development approach used here.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
